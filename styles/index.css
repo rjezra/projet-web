@@ -9,11 +9,11 @@
 }
 
 body {
-    margin: 50px auto 0;
+    margin: 50px 0;
 }
 
 header {
-    padding: 0 100px;
+    padding: 0 60px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-content: center;
@@ -45,6 +45,9 @@ header img {
         width: 500px;
     }
 
+    
+}
+.section1{
     .img {
         max-width: 300px;
         height: auto;
@@ -173,7 +176,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
     header {
-        padding: 0 50px;
+        padding: 0px;
         display: grid;
         grid-template-columns: 1fr 2fr;
         align-content: center;
@@ -183,7 +186,7 @@ footer {
     header ul {
         display: flex;
         justify-content: flex-end;
-        column-gap: 20px;
+       
     }
 
     header img {
@@ -193,7 +196,7 @@ footer {
 
     .section1,
     .section2 {
-        padding:20px;
+      
         display: flex;
         flex-direction: column-reverse;
         margin-top: 50px;
@@ -250,7 +253,7 @@ footer {
     }
 
     .section3 {
-        padding: 20px;
+        padding: 40px;
         display: flex;
         flex-direction: column;
         form {
